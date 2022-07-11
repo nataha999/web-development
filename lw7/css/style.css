@@ -1,0 +1,143 @@
+.main
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+.main__questions
+{
+    font-size: 16px; 
+    font-weight: 500;
+}
+.main__buttom
+{
+    height: 55px;
+    background: #05090c;
+    border-radius: 4.59px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+}
+.main__buttom_one
+{
+    width: 247px;
+}
+.main__buttom_two
+{
+    width: 332px;
+}
+.main__header
+{
+    font-weight: 635;
+}
+.text
+{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+}
+.text__annotation
+{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.text__note
+{
+    background: #000;
+    font-size: 22px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.main__frame
+{
+    font-size: 48px;
+    font-weight: 500;
+}
+.text__comment
+{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.text__blocks
+{
+    border-radius: 7px;
+    background: #000000;
+    font-size: 18px;
+    color: #fff;
+    width: 285px;
+    height: 120px;
+    padding: 30px 33px 40px 39px;
+}
+.footer
+{
+    height: 108px;
+    background: #000000;
+}
+.color
+{
+    color: #ee58B6;
+}
+@media screen and (min-width: 480px)
+{
+    .main__header
+    {        
+        font-size: 50px;
+    }
+    .text__annotation
+    {
+        font-size: 20px; 
+    } 
+    .footer
+    {
+        margin-top: 100px;
+    } 
+}
+@media screen and (min-width: 600px)
+{
+    .text__annotation
+    {
+        font-size: 26px;
+    } 
+    .main__header
+    {        
+        font-size: 70px;
+    }    
+}
+@media screen and (min-width: 711px)
+{
+    .main__buttom_one
+    {
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width: 768px)
+{
+    .footer
+    {
+        margin-top:288px;
+    } 
+}
+@media screen and (min-width: 1024px)
+{
+    .main__buttom_one
+    {
+        margin-top: 0px;
+    }
+    .main__header
+    {        
+        font-size: 62px;
+    } 
+}
+@media screen and (min-width: 1120px)
+{
+    .main__header
+    {        
+        font-size: 70px;
+    } 
+}
+@media screen and (min-width: 1590px)
+{
+    .main__header
+    {        
+        font-size: 100px;
+    }
+}
