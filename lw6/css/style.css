@@ -1,0 +1,385 @@
+body
+{
+    margin: 0;
+}
+
+.header
+{
+    height: 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.header__logo
+{
+    position: relative;
+    top: -2px;
+    left: 122px;
+}
+
+
+.header__navigation
+{
+    width: 469px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 308px;
+    top: 1px;
+}
+
+.navigation-text
+{
+    font: normal 500 16px/20px 'Montserrat';
+    color: #000000;
+}
+
+.header__button-registration
+{
+    width: 167px;
+    height: 17px;   
+    background: #05090c;
+    border-radius: 5px; 
+    font: normal 600 16px/16px 'Montserrat';
+    color: #ffffff;  
+    padding: 19px 40px; 
+    text-align: center;
+    position: relative;
+    right: 103px;
+}
+
+/**********************************************/
+
+.main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.front-page
+{
+    width: 1580px;
+    height: 732px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.front-page__image
+{
+    position: relative;
+    right: 27px;
+    bottom: 4px;
+}
+
+.front-page__headline
+{
+    font: normal 600 100px/1.22 'Montserrat';
+    position: relative;
+    top: -59px;
+    left: 16px;
+}
+
+.front-page__about
+{
+    width: 545px;
+    font: normal 400 26px/1.2 'Roboto Condensed';
+    color: #000000;
+    position: relative;
+    top: -138px;
+    left: 16px;
+}
+
+.front-page__button-registration
+{
+    width: 167px;
+    height: 17px;
+	background: #05090c;
+	border-radius: 5px;
+    font: normal 600 16px/16px 'Montserrat';
+	color: #ffffff;   
+    padding: 18px 83px; 
+    position: relative;
+    top: -99px;
+    left: 16px;
+}
+
+/***************************************************/
+
+.short-description
+{
+    width: 100%;
+    background: #000000; 
+    height: 398px;
+    position: relative;
+    top: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.short-description__panel
+{
+    display: flex;
+    justify-content: space-between;
+    width: 1137px;
+    position: relative;
+    top: -21px;
+    left: -10px;
+}
+
+.short-description__time
+{
+    width: 285px;
+    height: 145px;
+    text-align: center;
+    position: relative;
+    left: 20px;
+}
+
+.short-description__time_image
+{
+    margin: 5px 0px -5px 0px;
+}
+
+.short-description__time_text
+{
+    width: 303px;
+    font: normal 400 22px/1.2 'Roboto Condensed';
+    color: #ffffff;
+    margin-left: -9px;
+}
+
+.short-description__notebook
+{
+    width: 337px;
+    height: 132px;
+    text-align: center;
+}
+
+.short-description__notebook_image
+{
+    margin: 5px -29px -5px 16px;
+}
+
+.short-description__notebook_text
+{
+    width: 337px;
+    font: normal 400 22px/1.2 'Roboto Condensed';
+    color: #ffffff;
+    margin-left: 24px;
+}
+
+.short-description__target
+{
+    width: 293px;
+    height: 132px;
+    text-align: center;
+    position: relative;
+    left: 20px;
+}
+
+.short-description__target_image
+{
+    margin: 5px -1px -5px 1px;
+}
+
+.short-description__target_text
+{
+    width: 337px;
+    font: normal 400 22px/1.2 'Roboto Condensed';
+    color: #ffffff;
+    margin-left: -21px;
+}
+
+/**************************************************/
+
+.deadline
+{
+    width: 1136px;
+}
+
+.deadline__fail
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 85px;
+    margin-left: -19px;
+}
+
+.deadline__fail_paragrph
+{
+    position: relative;
+    top: 42px;
+    left: -14px;
+}
+
+.deadline__again
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 85px;
+    margin-left: -19px;
+}
+
+.deadline__again_paragrph
+{
+    position: relative;
+    top: -15px;
+    left: 28px;
+}
+
+.deadline__again_image
+{
+    position: relative;
+    top: -7px;
+    left: -94px;
+}
+.deadline__headline
+{
+    font: normal 500 48px/1.26 'Montserrat';
+    color: #000000;
+}
+
+.deadline__text
+{
+    font: normal 400 18px/24px 'Roboto Condensed';
+    color: #000000;
+}
+
+.deadline__fail_headline
+{
+    width: 376px;
+    height: 61px;
+}
+
+.deadline__fail_text
+{
+    width: 574px;
+    height: 48px;
+    margin: -23px -24px 23px 0;
+}
+
+.deadline__again_headline
+{
+    width: 391px;
+    height: 61px;
+}
+
+.deadline__again_text
+{
+    width: 574px;
+    height: 44px;
+    margin: -23px 0 23px 0;
+}
+
+/***************************************************/
+
+.opportunities
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 79px;
+    left: 8px;
+}
+
+.opportunities__content_flex
+{
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 1134px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    top: -4px;
+    left: -1px;
+}
+
+.opportunities__headline
+{
+    width: 553px;
+    height: 60px;
+    font: normal 500 48px/59px 'Montserrat';
+    color: #000000;
+    text-align: center;
+}
+
+.block-opportunities
+{
+    width: 358px;
+    height: 190px;
+    background: #000000;
+    border-radius: 7px;
+    margin: 15px 0;
+    color: #fff;
+}
+
+.opportunities-text1 
+{
+    width: 269.77px;
+    height: 51.5px;
+    font: normal 400 18px/21px 'Roboto Condensed';
+    margin-left: 1px;
+    margin-top: 17px;
+}
+
+.opportunities-text2 
+{
+    width: 269.77px;
+    height: 52px;
+    font: normal 400 18px/21px 'Roboto Condensed';
+    margin-left: 1px;
+    margin-top: 16px;
+}
+
+.opportunities-text3 
+{
+    margin-left: 1px;
+    margin-top: 17px;
+    width: 286px;
+    height: 51px;
+    font: normal 400 18px/21px 'Roboto Condensed';
+    margin-left: 1px;
+    margin-top: 17px;
+}
+
+.type1 
+{
+    padding: 32px 0 0 40px;
+}
+
+.type2 
+{
+    padding: 33px 0 0 40px;
+}
+
+/**************************************************/
+
+.footer
+{
+    background: #000000;
+    padding: 35px 0 42px 0;
+    text-align: center;
+    margin-top: 349px;
+}
+
+.footer__logo
+{
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+/**************************************************/
+
+.text_extra
+{
+    color: #ee58b6;
+}
