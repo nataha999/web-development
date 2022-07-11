@@ -1,0 +1,267 @@
+.body.active
+{
+    overflow-y: hidden;
+}
+
+.form__txt
+{
+    margin: 270px 0 0 0px;
+    line-height: 120%;
+    text-align: center;
+    font: 500 36px 'Montserrat', sans-serif;
+}
+
+.popup__main
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3374px;
+    background: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    pointer-events: none;
+    transition: .2s ease-in-out;
+}
+
+.popup__main.active 
+{
+    opacity: 1;
+    pointer-events: all;
+    transition: .2s ease-in-out;
+}
+
+.none_column
+{
+    display: flex;
+    align-items: flex-start;
+}
+
+.popup__images
+{
+    margin-left: 136px;
+    margin-top: 33px;
+}
+
+.btn_close-popup
+{
+    margin-top: 14px;
+    margin-left: 117px;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.err
+{
+    margin: 22px 0 0 600px;
+}
+
+.form__title
+{
+    font: 500 26px 'Montserrat', sans-serif;
+    margin-right: 8px;
+    margin-top: 27px;
+}
+
+.forma
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popup__error
+{
+    display: none;
+}
+
+.popup__content
+{
+    margin: 0 auto;
+    margin-top: 32px;
+    background-color: #fff;
+    width: 640px;
+    height: 847px;
+    border-radius: 10px;
+    transform: perspective(600px) translate(0px, -100%) rotateX(45deg);
+    transition: all 0.8s ease 0s;
+}
+
+.popup__content.active
+{
+    transform: perspective(600px) translate(0px, 0%) rotateX(0deg);
+    transition: all 0.8s ease 0s;
+}
+
+.popup
+{
+    margin-top: 9px;
+    margin-left: 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+.popup__inp
+{
+    margin-top: 21px;
+    width: 480px;
+    height: 64px;
+    box-sizing: border-box;
+    font: 500 18px 'Montserrat', sans-serif;
+    padding-left: 28px;
+    color: #999;
+    border: 1.35px solid #C0C0C0;
+    border-radius: 4px;
+    outline: none;
+}
+
+.error
+{
+    background-color: yellow;
+}
+
+.error2
+{
+    border: 1.35px solid;
+    border-color: red;
+}
+
+.popup__inp:first-child
+{
+    margin-top: 0;
+}
+
+.popup__inp::placeholder
+{
+    color: #999;
+    margin: 0 0 0 0;
+}
+
+.popup__inp:focus
+{
+    border: 1.35px solid #000;
+}
+
+/*.popup__choose
+{
+    appearance: none;
+    background-image: url(../images/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: right 28px center;
+}*/
+
+.popup__choose_elem
+{
+    color: #000;
+    height: 54px;
+    padding: 16px;
+}
+
+.popup__choose_elem:hover
+{
+    background-color: #F1F1F1;
+    cursor: pointer;
+}
+
+.popup__choose_elem1
+{
+    margin-top: 10px;
+}
+
+.checkbox
+{
+    display: flex;
+    margin: 35px 0;
+    align-items: center;
+}
+
+.agree
+{
+    font: 400 16px 'Roboto Condensed', sans-serif;
+    opacity: 70%;
+}
+
+.agree__btn
+{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.agree__btn+label
+{
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+.agree__btn+label::before
+{
+    content: '';
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    box-sizing: border-box;
+    border: 2px solid #C0C0C0;
+    border-radius: 4px;
+    margin-right: 7px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+
+.agree__btn:checked+label::before
+{
+    background-image: url(../images/check_mark.svg);
+    background-size: 13px 10px;
+    border-color: #EE58B6;
+    background-color: #EE58B6;
+}
+
+.form__button
+{
+    width: 480px;
+    height: 64px;
+    box-sizing: border-box;
+    font: 500 18px 'Montserrat', sans-serif;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 5.39553px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__button:hover
+{
+    border: 1px solid #d647a2;
+    background-color: #d647a2;
+}
+
+#ajax_form.inputBox.indicator
+{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 10px;
+    height: 10px;
+    background: #555;
+    border-radius: 50%;
+} 
+
+.hide
+{
+    display: none;
+}
+
+.show
+{
+    display: block;
+}

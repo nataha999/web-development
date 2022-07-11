@@ -1,0 +1,75 @@
+.body{
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.form__button{
+	position: absolute;
+	width: 372px;
+	height: 64px;
+	left: 111px;
+	top: 26px;
+	background: #000;
+	border-radius: 5.39553px;
+}
+
+.form__button-text{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+
+	text-align: center;
+
+	color: #FFF;
+}
+
+.form__users-block
+{
+	margin: 118px 0 0 -10px;
+}
+
+.form__users-block > li{
+	margin: 0 0 69px 74px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	/* identical to box height, or 123% */
+	line-height: 14px;
+	padding: 46px 0 0 32px;
+
+	color: #FFFFFF;
+	color:#FFF;
+	width: 340px;
+    height: 286px;
+	max-width: 340px;
+    max-height: 242px;
+	left: 111px;
+	top: 119px;
+	list-style-type: none;
+	background: rgb(0, 0, 0);
+	border-radius: 12px;
+	display: inline-block;
+}
+
+.form__empty-message{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	margin: 250px auto;
+	text-align: center;
+	width: 350px;
+	height: 200px;
+
+	color: #fff;
+	background-color: #000;
+	border-radius: 5.39553px;
+}
+

@@ -1,0 +1,150 @@
+/* header */
+
+.reference 
+{
+    font: 500 16px/1.25 Montserrat;
+}
+
+.button
+{
+    background: #05090c;
+    border-radius: 4.6px;
+    color: #fff;
+    font: 600 16px Montserrat;
+}
+
+.button__top 
+{
+    width: 247px;
+    height: 55px;
+}
+
+/* main */
+
+.title
+{
+    font: 600 100px/1.2 Montserrat;
+    margin: 87px 0 0 0;
+}
+
+.bloom
+{
+    color: #ee58b6;
+}
+
+.explanation 
+{
+    font: 400 26px/1.2 'Roboto Condensed';
+    color: rgba(0, 0, 0, 0.7);
+    margin: 21px 167px 42px 0;
+}
+
+.button__collateral
+{
+    width: 332px;
+    height: 55px;
+}
+
+.info
+{
+    font: 400 22px/1.2 'Roboto Condensed';
+    color: #fff;
+    background: #000;
+}
+
+.text 
+{
+    font: 400 18px/1.4 'Roboto Condensed';
+    color: rgba(0, 0, 0, 0.7);
+    margin: -3px 0 0 7px;
+}
+
+.point 
+{
+    font: 500 48px/1.3 Montserrat;
+    margin: 38px 0 26px 5px;
+}
+
+.heading-card 
+{
+    font: 500 48px/1.2 Montserrat;
+}
+
+.card
+{
+    background: #000;
+    border-radius: 7.4px;
+    width: 283px;
+    height: 101px;
+    color: #fff;
+    font: 400 18px/1.2 'Roboto Condensed';
+}
+
+.card__item
+{
+    width: 290px;
+    height: 50px;
+}
+
+.info__expansion
+{
+    width: 1920px;
+    height: 108px;
+}
+
+.form-text
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 120%;
+    margin: 0 auto;
+}
+
+.form-text__one
+{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.li
+{
+    list-style-type: none;
+}
+
+.form-block
+{
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.sel
+{
+    width: 482px;
+    height: 64px;
+    margin: 20px 18px 0 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #999;
+}
+
+.button__col
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 9.44218px;
+}
