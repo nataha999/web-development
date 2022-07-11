@@ -1,0 +1,129 @@
+.enroll
+{
+    display: block;
+    margin: 0 auto;
+    max-width: 640px;
+    /*height: 767px;*/
+}
+
+.enroll__img
+{
+    max-width: 540px;
+    text-align: center;
+    margin: 159px 0 0 187px;
+}
+
+.enroll__header
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 1.2;  
+    text-align: center;  
+    color: #000;
+    margin: -3px 0 22px 56px;
+}
+
+.enroll__form
+{
+    margin: 0 0 1px 114px;
+}  
+
+.enter
+{
+    align-items: center;
+    width: 450px;
+    height: 59px;
+    margin: 10px auto;
+    border-radius: 4px;
+    border-color: #C0C0C0;
+    border-style: solid;
+    border-width: 0.12rem;
+    padding: 1px 0 0 26px;
+}
+
+.enter_list
+{
+    align-items: center;
+    width: 480px;
+    height: 62px;
+    border-radius: 4px;
+    border-color: #C0C0C0;
+    margin: 11px auto;
+    padding: 2px 0 0 27px;
+    -webkit-appearance: none;
+    background: url("img/arrow.svg");
+    background-repeat: no-repeat;
+    background-position: bottom 23px right 29px;
+}
+
+.data
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #999;
+}
+
+.data::placeholder
+{
+    width: 131px;
+    height: 23px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #999;
+    margin-left: 135px;
+}
+
+.agree
+{
+    display: flex;
+    margin: 26px 0 26px 0;
+}
+
+.check_box
+{
+    height: 21px;
+    width: 21px;
+    border: 1px solid #C0C0C0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 0;
+}
+
+.check_box::checked
+{
+    background: #ee58b6;
+}
+
+.check
+{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: inline-block;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.7);
+    margin-left: 8px;
+}
+
+.click
+{
+    border-style: none;
+    width: 480px;
+    height: 64px;
+    margin: 9px 1px 0 0;  
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    font: 500 18px 'Montserrat';
+}
